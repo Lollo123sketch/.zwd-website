@@ -1,0 +1,2 @@
+import{a as e,n as t,t as n}from"./site-wYWykNjn.js";var r=e(t(),1);function i(e,t=n.description){(0,r.useEffect)(()=>{document.title=e===n.title?e:`${e} — .zwd`,document.querySelector(`meta[name="description"]`)?.setAttribute(`content`,t),document.querySelector(`meta[property="og:title"]`)?.setAttribute(`content`,document.title),document.querySelector(`meta[property="og:description"]`)?.setAttribute(`content`,t)},[t,e])}export{i as t};
+//# sourceMappingURL=useDocumentMeta-CmfNccGI.js.map

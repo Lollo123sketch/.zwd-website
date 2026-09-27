@@ -1,0 +1,2 @@
+import{r as e}from"./site-wYWykNjn.js";import{n as t}from"./index-C17uDRi3.js";var n=e();function r({children:e,variant:r=`primary`,external:i,className:a=``,href:o=`#`,...s}){let c=`button button-${r} ${a}`.trim();return i?(0,n.jsx)(`a`,{className:c,href:o,target:`_blank`,rel:`noreferrer`,...s,children:e}):(0,n.jsx)(t,{className:c,to:o,children:e})}export{r as t};
+//# sourceMappingURL=ButtonLink-1wrwS5Z1.js.map

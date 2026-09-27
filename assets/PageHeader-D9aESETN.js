@@ -1,0 +1,2 @@
+import{r as e}from"./site-wYWykNjn.js";import{t}from"./Reveal-DRdjJR11.js";var n=e();function r({eyebrow:e,title:r,description:i}){return(0,n.jsx)(`header`,{className:`page-header shell`,children:(0,n.jsxs)(t,{children:[(0,n.jsx)(`p`,{className:`eyebrow`,children:e}),(0,n.jsx)(`h1`,{children:r}),(0,n.jsx)(`p`,{children:i})]})})}export{r as t};
+//# sourceMappingURL=PageHeader-D9aESETN.js.map

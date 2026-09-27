@@ -1,0 +1,2 @@
+import{r as e}from"./site-wYWykNjn.js";import{i as t}from"./index-C17uDRi3.js";var n=e();function r({children:e,className:r=``,delay:i=0}){return(0,n.jsx)(t.div,{className:r,initial:{opacity:0,y:24},whileInView:{opacity:1,y:0},viewport:{once:!0,amount:.18},transition:{duration:.6,delay:i,ease:[.22,1,.36,1]},children:e})}export{r as t};
+//# sourceMappingURL=Reveal-DRdjJR11.js.map
