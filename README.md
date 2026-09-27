@@ -18,7 +18,7 @@ npm ci
 npm run dev
 ```
 
-The Vite URL is `http://localhost:5173/Hackey/`. Copy `.env.example` to `.env.local` only when connecting a backend.
+The Vite URL is `http://localhost:5173/.zwd-website/`. Copy `.env.example` to `.env.local` only when connecting a backend.
 
 ## Quality checks
 
@@ -36,7 +36,7 @@ With `VITE_API_URL`, the dashboard uses the bot API for Discord OAuth, manageabl
 
 ```env
 VITE_API_URL=https://api.example.com
-VITE_BASE_PATH=/Hackey/
+VITE_BASE_PATH=/.zwd-website/
 ```
 
 ## Backend configuration
@@ -46,7 +46,7 @@ The API is mounted in the existing `.zwd` Fastify server. Configure these variab
 ```env
 DASHBOARD_ENABLED=true
 PUBLIC_BASE_URL=https://api.example.com
-DASHBOARD_FRONTEND_URL=https://lollo123sketch.github.io/Hackey
+DASHBOARD_FRONTEND_URL=https://lollo123sketch.github.io/.zwd-website
 DISCORD_CLIENT_ID=1470536268948439134
 DISCORD_CLIENT_SECRET=replace-on-host
 DISCORD_OAUTH_REDIRECT_URI=https://api.example.com/auth/discord/callback
@@ -59,7 +59,7 @@ In the Discord Developer Portal, add the exact `DISCORD_OAUTH_REDIRECT_URI` unde
 
 ## GitHub Pages
 
-`.github/workflows/pages.yml` installs dependencies, runs the complete quality check, uploads `website/dist`, and deploys on pushes to `main` that affect the website.
+The template in `deploy/pages.yml` installs dependencies, runs the complete quality check, uploads `dist`, and deploys on pushes to `main`.
 
 Repository settings:
 
