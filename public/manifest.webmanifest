@@ -1,0 +1,12 @@
+{
+  "name": ".zwd — Discord Bot",
+  "short_name": ".zwd",
+  "description": "A configurable Discord platform for moderation, support, music and community operations.",
+  "start_url": "./#/",
+  "display": "standalone",
+  "background_color": "#080a0f",
+  "theme_color": "#080a0f",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

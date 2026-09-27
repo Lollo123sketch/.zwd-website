@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><radialGradient id="g"><stop stop-color="#6d55d9" stop-opacity=".42"/><stop offset="1" stop-color="#080a0f" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="630" fill="#080a0f"/><circle cx="950" cy="80" r="460" fill="url(#g)"/>
+  <g stroke="#fff" stroke-opacity=".06"><path d="M0 105h1200M0 210h1200M0 315h1200M0 420h1200M0 525h1200"/><path d="M200 0v630M400 0v630M600 0v630M800 0v630M1000 0v630"/></g>
+  <text x="95" y="250" fill="#f5f2ea" font-family="Arial,sans-serif" font-weight="800" font-size="118">.zwd</text>
+  <text x="102" y="337" fill="#e8d9b9" font-family="Arial,sans-serif" font-weight="700" font-size="45">Run your server. Keep its edge.</text>
+  <text x="102" y="402" fill="#999eaa" font-family="Arial,sans-serif" font-size="26">Moderation · support · community · music</text>
+</svg>
