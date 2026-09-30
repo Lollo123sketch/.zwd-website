@@ -1,0 +1,11 @@
+services:
+  site:
+    image: node:22-bookworm
+    working_dir: /workspace
+    network_mode: host
+    volumes:
+      - .:/workspace
+    environment:
+      VITE_BASE_PATH: /
+      IS_ALLOY: ${IS_ALLOY:-false}
+    command: bash -lc "npm install && npx vite --host 0.0.0.0 --port 5173 --strictPort"
